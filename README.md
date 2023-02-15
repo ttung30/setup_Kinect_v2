@@ -1,11 +1,11 @@
 # Set up Camera Kinect v2
 # cài đặt các gói phụ thuộc
-sudo apt-get install build-essential cmake pkg-config  -y  # Build tools
-sudo apt-get install libusb-1.0-0-dev          # libusb
-sudo apt-get install libturbojpeg0-dev -y      # TurboJPEG
-sudo apt-get install libglfw3-dev -y           # OpenGL
-sudo apt-get install libva-dev libjpeg-dev -y  # VAAPI for Intel only
-sudo apt-get install libopenni2-dev -y         # OpenNI2
+sudo apt-get install build-essential cmake pkg-config  -y  
+sudo apt-get install libusb-1.0-0-dev
+sudo apt-get install libturbojpeg0-dev -y     
+sudo apt-get install libglfw3-dev -y  
+sudo apt-get install libva-dev libjpeg-dev -y 
+sudo apt-get install libopenni2-dev -y 
 
 $ git clone https://github.com/OpenKinect/libfreenect2
 $ cd libfreenect2
