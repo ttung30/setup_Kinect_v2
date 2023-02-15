@@ -1,4 +1,4 @@
-import pykinect2
+import pylibfreenect2
 
 
 
